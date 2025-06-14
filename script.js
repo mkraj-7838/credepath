@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://credepath-job.onrender.com/api"; // Your backend API URL
+const API_BASE_URL = "http://localhost:5000/api"; // Your backend API URL
 
 const jobListingsContainer = document.getElementById("jobListingsContainer");
 const jobDetailsContainer = document.getElementById("jobDetailsContainer");
