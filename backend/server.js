@@ -78,6 +78,7 @@ app.get('/api/jobs', async (req, res) => {
     }
 });
 
+
 // GET a single job by ID
 app.get('/api/jobs/:id', async (req, res) => {
     try {
@@ -136,6 +137,14 @@ app.delete('/api/jobs/:id', async (req, res) => {
         console.error(err);
         res.status(500).json({ message: 'Server Error' });
     }
+});
+
+app.get('/', (req, res) => {
+    res.json({ 
+        status: 'OK', 
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime()
+    });
 });
 
 // Start the server
