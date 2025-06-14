@@ -15,7 +15,7 @@ JobSearch is a web-based job search platform that allows users to browse, filter
 ## Live Demo
 Check out the live version of the app [here](https://credepath-mk.netlify.app/).
 
-![Credepath](./image.jpg)
+![Credepath](./image.png)
 
 ## Technologies Used
 - **Frontend**:
