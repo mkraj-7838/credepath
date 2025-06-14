@@ -53,7 +53,6 @@ body {
     border: 1px solid #e0e0e0;
     background-color: white;
     max-width: 800px;
-    margin: 0 auto;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
 }
@@ -121,7 +120,7 @@ body {
     background-color: #00cc83;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 8px 24px;
     font-weight: 500;
     transition: background-color 0.2s ease;

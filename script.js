@@ -1,4 +1,6 @@
+// const API_BASE_URL = "http://localhost:5000/api";
 const API_BASE_URL = "https://credepath-job.onrender.com/api"; // Your backend API URL
+ // Your backend API URL
 
 const jobListingsContainer = document.getElementById("jobListingsContainer");
 const jobDetailsContainer = document.getElementById("jobDetailsContainer");
@@ -227,7 +229,7 @@ function getCurrentFilters() {
 async function fetchJobs(filters = {}) {
   try {
     jobListingsContainer.innerHTML = `
-      <div class="bg-white p-4 rounded-lg shadow" style="min-height: 150px; display: flex; align-items: center; justify-content: center; color: #6b7280;">
+      <div class="bg-white p-4 rounded-lg shadow" style="display: flex; align-items: center; justify-content: center; color: #6b7280;">
         Loading jobs...
       </div>
     `;
